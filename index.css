@@ -11,3 +11,38 @@
 ul {
   list-style: none;
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+}
+
+li h4 {
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+  display: block;
+}
+
+li a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  display: block;
+}
+
+li a:hover {
+  color: rgb(212, 14, 169);
+}
+
+li h4:hover {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: green;
+  display: block;
+  cursor: pointer;
+}
+
+#owner {
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  background-color: yellow;
+}
